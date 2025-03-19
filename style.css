@@ -3,8 +3,49 @@
 }
 
 .calculator {
-    width: 25%;
+    width: 20%;
     border: 2px solid black;
     display: flex;
     margin: auto;
+    flex-wrap: wrap;
+}
+
+.display {
+    flex: 0 1 auto;
+    width: 90%;
+    background-color: rgb(206, 206, 126);
+}
+
+.buttons {
+    display: flex;
+}
+
+.colomTwo {
+    flex-direction: column;
+}
+
+.columThree {
+    flex-direction: column;
+    
+}
+
+.columFour {
+    flex-direction: column;
+    
+}
+
+.operator {
+
+}
+
+.number {
+
+}
+
+.clear {
+
+}
+
+.result {
+
 }
