@@ -1,3 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+.calculator {
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+}
