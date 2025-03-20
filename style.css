@@ -4,48 +4,44 @@
 
 .calculator {
     width: 20%;
+    height: 500px;
     border: 2px solid black;
     display: flex;
     margin: auto;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .display {
-    flex: 0 1 auto;
+    flex: 0 1 0.5;
     width: 90%;
+    height: 25%;
     background-color: rgb(206, 206, 126);
 }
 
 .buttons {
     display: flex;
+    width: 90%;
+    height: 70%;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.colomTwo {
-    flex-direction: column;
+.buttons button {
+    width: 25%;
+    flex: auto;
 }
 
-.columThree {
-    flex-direction: column;
-    
+.buttons .result {
+    width: 50%;
 }
 
-.columFour {
-    flex-direction: column;
-    
-}
-
-.operator {
-
-}
-
-.number {
-
+.operator, .result {
+    background-color: rgba(20, 114, 168, 0.356);
 }
 
 .clear {
-
-}
-
-.result {
-
+    background-color: rgba(255, 0, 0, 0.692);
 }
