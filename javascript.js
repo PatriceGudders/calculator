@@ -37,3 +37,24 @@ function operate(numberOne, numberTwo, operator) {
             break;
     }
 }
+
+// Variable to store content of screen 
+const screenContent = document.querySelector(".display");
+
+// Check which button was clicked and go to callback function
+const buttons = document.querySelectorAll("button");
+buttons.forEach(button => {
+    if(button.className === "number") {
+        button.addEventListener("click", () => {
+            addNumberToScreen(button);
+        });
+    }
+    
+})
+
+// Callback function to display number on screen
+function addNumberToScreen(button) {
+    return screenContent.innerText = button.innerText;
+}
+
+
