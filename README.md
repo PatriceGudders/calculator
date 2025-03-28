@@ -2,22 +2,22 @@
 
 ## Overview
 
-This project is a fully functional calculator built with **HTML**, **CSS**, and **JavaScript**. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a user-friendly interface and incorporates functionalities like clearing input, handling errors, and supporting both button clicks and keyboard input.
+This project is a calculator built with **HTML**, **CSS**, and **JavaScript**. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a user-friendly interface and incorporates functionalities like clearing input, handling errors and supporting both button clicks (keyboard input still to add).
 
 ## Features
 
 ### Core Functionality
 - Basic arithmetic operations: **add**, **subtract**, **multiply**, **divide**.
 - Displays the result of operations.
-- Allows chaining of operations, using the result of the previous operation as the first number for the next.
+- Still to add (Allows chaining of operations, using the result of the previous operation as the first number for the next.)
 
 ### Additional Features
 - **Clear Button**: Resets the calculator to its initial state.
 - **Decimal Support**: Allows input of floating-point numbers (one decimal point per number).
 - **Backspace Button**: Removes the last input character.
-- **Keyboard Support**: Enables users to use their keyboard for input and operations.
+- **Still to add - Keyboard Support**: Enables users to use their keyboard for input and operations.
 - Handles long decimal numbers by rounding to prevent overflow.
-- Displays a snarky error message for division by zero (because dividing by zero is forbidden!).
+- Displays a error message for division by zero.
 
 ## How It Works
 
@@ -38,7 +38,7 @@ This project is a fully functional calculator built with **HTML**, **CSS**, and 
 1. **Basic Operations**:
    - Enter the first number, press an operator button, enter the second number, and press "=" to see the result.
 
-2. **Chaining Operations**:
+2. **Still to add Chaining Operations**:
    - After pressing "=", continue with another operator and number to use the previous result in a new calculation.
 
 3. **Clearing Input**:
@@ -72,17 +72,3 @@ This project is a fully functional calculator built with **HTML**, **CSS**, and 
 ### HTML & CSS
 - HTML provides the structure with buttons for digits, operators, and functionalities.
 - CSS styles the calculator to make it visually appealing and easy to use.
-
-## Future Improvements
-- Allow users to customize the appearance of the calculator (themes).
-- Implement scientific calculator functionalities (e.g., square root, exponentiation, etc.).
-
-## Example Screenshot
-Include a screenshot of your calculator interface here for better visualization.
-
----
-
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/calculator-project.git
