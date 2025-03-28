@@ -5,7 +5,10 @@
 .calculator {
     width: 20%;
     height: 500px;
-    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     margin: auto;
     flex-wrap: wrap;
@@ -16,8 +19,12 @@
 .display {
     flex: 0 1 0.5;
     width: 90%;
-    height: 25%;
-    background-color: rgb(206, 206, 126);
+    height: auto;
+    background-color: #222;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
 }
 
 .buttons {
@@ -29,19 +36,32 @@
     justify-content: space-around;
 }
 
-.buttons button {
+button {
     width: 25%;
     flex: auto;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    cursor: pointer;
+    outline: none;
 }
 
-.buttons .result {
+.buttons .equals {
     width: 50%;
+    background-color: #4caf50;
+    color: white;
 }
 
-.operator, .result {
-    background-color: rgba(20, 114, 168, 0.356);
+.operator {
+    background-color: #fd9153;
+    color: white;
 }
 
-.clear {
-    background-color: rgba(255, 0, 0, 0.692);
+.clear,
+.backspace {
+    background-color: #e57373;
+    color: white;
+}
+
+button:hover {
+    background: #ddd;
 }
